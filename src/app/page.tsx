@@ -102,10 +102,13 @@ export default function Home() {
                 <Aboutme/>
             </RevealOnScroll>
             </div>
-            <Footer/>
 
             
-        </div>  
+        </div>
+        <Footer/>
+
+  
     </main>
+
   )
 }

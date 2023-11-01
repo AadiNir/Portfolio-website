@@ -7,7 +7,7 @@ const poppins = Poppins({subsets:['latin'],weight:'400'})
 export default function Aboutme(){
  
     return(
-        <div className=" h-screen mt-36">
+        <div className=" h-max mt-36">
             <h1 className="text-white text-9xl mb-10 ">About Me</h1>
             <div className="bg-white m-20 rounded-3xl">
             <div className="flex text-left items-center">

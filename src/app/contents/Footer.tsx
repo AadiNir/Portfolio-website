@@ -4,7 +4,7 @@ import {FaXTwitter} from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4 ">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
             <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">
@@ -15,16 +15,16 @@ const Footer = () => {
                     <a href="#" className="mr-4 hover:underline md:mr-6 ">Connect me on</a>
               </li>
               <li>
-              <a  className = "text-xl" href=''><AiFillGithub/></a>
+              <a  className = "text-xl" href='https://github.com/AadiNir'><AiFillGithub/></a>
               </li>
               <li>
-              <a  className = "text-xl" href=''><AiFillLinkedin/></a>
+              <a  className = "text-xl" href='https://www.linkedin.com/in/aadithya-niranjan-817103214/'><AiFillLinkedin/></a>
               </li>
               <li>
-              <a  className = "text-xl" href=''><AiFillInstagram/></a>
+              <a  className = "text-xl" href='https://www.instagram.com/_____aadithyaniranjan__'><AiFillInstagram/></a>
               </li>
               <li>
-              <a  className = "text-xl" href=''><FaXTwitter/></a>
+              <a  className = "text-xl" href='https://twitter.com/Aadithyaniranj3'><FaXTwitter/></a>
               </li>
             </ul>
         </div>
