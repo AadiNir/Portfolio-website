@@ -79,15 +79,15 @@ export default function Home() {
         
             <RevealOnScroll >
             <div className="grid grid-cols-2 my-20 mb-44 ">
-    <div className="bg-red-500  hover:bg-red-300 h-100 text-white flex items-center justify-center rounded-3xl m-4">
-      <h1 className={`${poppins.className} sm: text-4xl md:text-6xl lg:text-7xl xl:text-9xl text-right`}> Projects</h1>
+    <div className="bg-red-500  hover:bg-red-300 h-100 text-white flex items-center justify-center rounded-3xl m-4 ">
+      <h1 className={`${poppins.className} sm: text-4xl md:text-6xl lg:text-7xl xl:text-9xl text-right xl:hover:-translate-x-32 transition-transform duration-300 ease-in-out`}> Projects</h1>
     </div>
     <div >
     <div className=" bg-blue-700 hover:bg-lime-400 p-4 h-64 text-white rounded-3xl m-4"  onClick={handleScrollAndShowDiv}>
-      <h1 className={` ${poppins.className} sm: text-4xl md:text-6xl lg:text-7xl xl:text-9xl    `}>About Me</h1>
+      <h1 className={` ${poppins.className} sm: text-4xl md:text-6xl lg:text-7xl xl:text-9xl  xl:hover:-translate-x-20 transition-transform duration-300 ease-in-out  `}>About Me</h1>
     </div>
     <div className="bg-yellow-300 hover:bg-green-400 p-4 h-64 text-white rounded-3xl m-4">
-      <h1 className={`${poppins.className} sm: text-4xl md:text-6xl lg:text-7xl xl:text-9xl     `}>Contact Me</h1>
+      <h1 className={`${poppins.className} sm: text-4xl md:text-6xl lg:text-7xl xl:text-9xl   xl:hover:-translate-x-20 transition-transform duration-300 ease-in-out  `}>Contact Me</h1>
     </div>
 
     </div>
